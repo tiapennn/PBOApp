@@ -75,7 +75,7 @@ namespace PBOApp
             {
                 Point mousePose = Control.MousePosition;
                 mousePose.Offset(mousePose.X, mousePose.Y);
-                Location = mousePose;
+                Location = mousePose;       
             }
         }
     }
